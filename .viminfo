@@ -11,16 +11,20 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:q
+|2,0,1648906022,,"q"
+:w
+|2,0,1648906018,,"w"
+:qw
+|2,0,1648906011,,"qw"
+:set number
+|2,0,1648906000,,"set number"
+:q!
+|2,0,1648905390,,"q!"
 :wq
 |2,0,1648887327,,"wq"
-:w
-|2,0,1648887303,,"w"
-:q!
-|2,0,1648887134,,"q!"
 :qa
 |2,0,1648887084,,"qa"
-:q
-|2,0,1648887081,,"q"
 :help
 |2,0,1648887070,,"help"
 :ㅂ
@@ -40,31 +44,43 @@
 
 # File marks:
 '0  8  0  ~/hello.c
-|4,48,8,0,1648887327,"~/hello.c"
-'1  2  32  ~/hello.c
-|4,49,2,32,1648887134,"~/hello.c"
-'2  2  32  ~/hello.c
-|4,50,2,32,1648887134,"~/hello.c"
-'3  1  0  /usr/share/vim/vim81/doc/help.txt
-|4,51,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
-'4  1  0  /usr/share/vim/vim81/doc/help.txt
-|4,52,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
-'5  1  0  /usr/share/vim/vim81/doc/help.txt
-|4,53,1,0,1648545008,"/usr/share/vim/vim81/doc/help.txt"
-'6  1  0  /usr/share/vim/vim81/doc/help.txt
-|4,54,1,0,1648545008,"/usr/share/vim/vim81/doc/help.txt"
-'7  1  0  /usr/share/vim/vim81/doc/help.txt
-|4,55,1,0,1648545008,"/usr/share/vim/vim81/doc/help.txt"
-'8  1  0  /usr/share/vim/vim81/doc/help.txt
-|4,56,1,0,1648545008,"/usr/share/vim/vim81/doc/help.txt"
-'9  1  0  /usr/share/vim/vim81/doc/help.txt
-|4,57,1,0,1648545008,"/usr/share/vim/vim81/doc/help.txt"
+|4,48,8,0,1648906022,"~/hello.c"
+'1  8  0  ~/hello.c
+|4,49,8,0,1648905390,"~/hello.c"
+'2  8  0  ~/hello.c
+|4,50,8,0,1648887327,"~/hello.c"
+'3  8  0  ~/hello.c
+|4,51,8,0,1648887327,"~/hello.c"
+'4  2  32  ~/hello.c
+|4,52,2,32,1648887134,"~/hello.c"
+'5  2  32  ~/hello.c
+|4,53,2,32,1648887134,"~/hello.c"
+'6  2  32  ~/hello.c
+|4,54,2,32,1648887134,"~/hello.c"
+'7  2  32  ~/hello.c
+|4,55,2,32,1648887134,"~/hello.c"
+'8  2  32  ~/hello.c
+|4,56,2,32,1648887134,"~/hello.c"
+'9  2  32  ~/hello.c
+|4,57,2,32,1648887134,"~/hello.c"
 
 # Jumplist (newest first):
+-'  8  0  ~/hello.c
+|4,39,8,0,1648906022,"~/hello.c"
+-'  8  0  ~/hello.c
+|4,39,8,0,1648905390,"~/hello.c"
 -'  8  0  ~/hello.c
 |4,39,8,0,1648887327,"~/hello.c"
 -'  1  0  ~/hello.c
 |4,39,1,0,1648887210,"~/hello.c"
+-'  1  0  ~/hello.c
+|4,39,1,0,1648887210,"~/hello.c"
+-'  1  0  ~/hello.c
+|4,39,1,0,1648887210,"~/hello.c"
+-'  2  32  ~/hello.c
+|4,39,2,32,1648887134,"~/hello.c"
+-'  2  32  ~/hello.c
+|4,39,2,32,1648887134,"~/hello.c"
 -'  2  32  ~/hello.c
 |4,39,2,32,1648887134,"~/hello.c"
 -'  2  32  ~/hello.c
@@ -91,6 +107,68 @@
 |4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
 -'  1  0  /usr/share/vim/vim81/doc/help.txt
 |4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648883673,"/usr/share/vim/vim81/doc/help.txt"
+-'  1  0  /usr/share/vim/vim81/doc/help.txt
+|4,39,1,0,1648545008,"/usr/share/vim/vim81/doc/help.txt"
 -'  1  0  /usr/share/vim/vim81/doc/help.txt
 |4,39,1,0,1648545008,"/usr/share/vim/vim81/doc/help.txt"
 -'  1  0  /usr/share/vim/vim81/doc/help.txt
@@ -191,7 +269,7 @@
 # History of marks within files (newest to oldest):
 
 > ~/hello.c
-	*	1648887303	0
+	*	1648906018	0
 	"	8	0
 	^	8	0
 	.	7	1
